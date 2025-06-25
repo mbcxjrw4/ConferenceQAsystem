@@ -1,0 +1,1 @@
+# Optional: .md / .json structuring
