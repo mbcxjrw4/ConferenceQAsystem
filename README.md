@@ -15,24 +15,14 @@ A lightweight retrieval-augmented generation (RAG) pipeline for exploring and qu
 ---
 
 ## 🗂️ Project Structure
-ConferenceQAsystem/
-
-├── data/
-
-│ ├── raw/ # Original Excel or PDF data
-
-│ ├── processed/ # Cleaned text chunks (JSONL)
-
-│ └── embeddings/ # Cached vector embeddings
-
-├── models/ # Downloaded LLMs and embedding models
-
-├── rag_pipeline/ # Core RAG pipeline components
-
-├── scripts/ # Utilities for preprocessing and embedding
-
-├── app/ # Streamlit app and config
-
-├── README.md
-
+ConferenceQAsystem/ \
+├── data/ \
+│ ├── raw/ # Original Excel or PDF data \
+│ ├── processed/ # Cleaned text chunks (JSONL) \
+│ └── embeddings/ # Cached vector embeddings \
+├── models/ # Downloaded LLMs and embedding models \
+├── rag_pipeline/ # Core RAG pipeline components \
+├── scripts/ # Utilities for preprocessing and embedding \
+├── app/ # Streamlit app and config \
+├── README.md \
 └── requirements.txt
